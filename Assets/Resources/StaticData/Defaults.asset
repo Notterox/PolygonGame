@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 044a46be6dc3a6147a276d004799f199, type: 3}
+  m_Name: Defaults
+  m_EditorClassIdentifier: 
+  creature:
+    material: {fileID: 2100000, guid: 50c07f77ccea02f4ca995413ef725e0d, type: 2}
+    size: 1
+    passiveBehavior:
+      color: {r: 0.2863564, g: 0.9339623, b: 0.57554936, a: 1}
+      speed: 0
+    straightBehavior:
+      color: {r: 0.9622642, g: 0.7536535, b: 0.21333215, a: 1}
+      speed: 4
+    randomBehavior:
+      color: {r: 0.085395135, g: 0.6144173, b: 0.9528302, a: 1}
+      speed: 3
+      changeDirectionTime: 3
+    aggressiveBehavior:
+      color: {r: 0.809, g: 0.11164201, b: 0.29314613, a: 1}
+      speed: 2
+      changeTargetTime: 2
+  borderMask:
+    serializedVersion: 2
+    m_Bits: 64

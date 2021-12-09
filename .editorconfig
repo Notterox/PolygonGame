@@ -1,0 +1,11 @@
+root=true
+
+[*.cs]
+# Ignore some irrelevant warnings
+dotnet_diagnostic.IDE0051.severity = none # Unused private
+dotnet_diagnostic.IDE0090.severity = none # Simplify to `new (...)`
+dotnet_diagnostic.SA1633.severity = none # file header
+dotnet_diagnostic.SA1600.severity = none # elements should be documented
+dotnet_diagnostic.SA1602.severity = none # enumeration should be documented
+dotnet_diagnostic.SA1101.severity = none # prefix with `this.`
+dotnet_diagnostic.SA1134.severity = none # prefix with `this.`

@@ -1,0 +1,10 @@
+{
+    "RoslynExtensionsOptions": {
+        "EnableAnalyzersSupport": true,
+        "LocationPaths": [
+            "./NuGet/microsoft.unity.analyzers.1.11.2",
+            "./NuGet/errorprone.net.coreanalyzers.0.1.2",
+            "./NuGet/stylecop.analyzers.1.1.118"
+        ]
+    }
+}
